@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO1shQ+4fD9ElE+rtXnIWia",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/karishma456/karishma/blob/main/python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "id": "leP5-DWGlK6p",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3097152e-9571-4da7-e0d9-10ed5e54f08f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a value20\n",
+            "enter a value10\n",
+            "30 add\n",
+            "10 sub\n",
+            "200 multiple\n",
+            "2.0 divide\n"
+          ]
+        }
+      ],
+      "source": [
+        "# a=input('enter a value')\n",
+        "# b=input('enter a value')\n",
+        "# c=int(a)+int(b)\n",
+        "# print(c)\n",
+        "\n",
+        "# c=input('enter a value')\n",
+        "# print(type(c))\n",
+        "# a=int(c)\n",
+        "# print(type(a))\n",
+        "\n",
+        "# a=input('enter a value')\n",
+        "# b=input('enter a value')\n",
+        "# c=int(a)*int(b)\n",
+        "# print(c)\n",
+        "\n",
+        "a=input('enter a value')\n",
+        "b=input('enter a value')\n",
+        "c=int(a)+int(b)\n",
+        "print(c,'add')\n",
+        "c=int(a)-int(b)\n",
+        "print(c,'sub')\n",
+        "c=int(a)*int(b)\n",
+        "print(c,'multiple')\n",
+        "c=int(a)/int(b)\n",
+        "print(c,'divide')\n",
+        "\n"
+      ]
+    }
+  ]
+}
